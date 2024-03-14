@@ -1,0 +1,107 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
+    background-color: rgb(40,40,40,255);
+    align-items: center;
+    padding: 10px;
+}
+
+span{
+    color: rgb(198, 115, 6);
+}
+
+.logotipo{
+    display: flex;
+    align-items: center;
+}
+
+.logotipo img{
+    margin-left: 10px;
+    width: 25pt;
+    height: 25pt;
+}
+
+.enlace-navegacion{
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    padding-right: 35px;
+}
+
+.nombre-empresa{
+    color: white;
+}
+
+.contacto{
+    text-align: center;
+    font-style: italic;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.seccion-izquierda {
+    flex: 0 0 50%;
+    padding-right: 20px;
+}
+
+.seccion-derecha {
+    flex: 0 0 50%;
+}
+
+.grupo-input {
+    margin-bottom: 20px;
+}
+
+.grupo-input label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.grupo-input input,
+.grupo-input select,
+.grupo-input textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+
+.terminos {
+    margin-bottom: 20px;
+}
+
+.enlace-condiciones {
+    color: blue;
+    text-decoration: underline;
+}
+
+.boton-enviar {
+    display: block;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.boton-enviar:hover {
+    background-color: #333;
+}
+
+.terminos input[type="checkbox"] {
+    margin-right: 10px;
+}

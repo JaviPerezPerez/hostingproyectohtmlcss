@@ -1,0 +1,103 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
+    background-color: rgb(40,40,40,255);
+    align-items: center;
+    padding: 10px;
+}
+
+span{
+    color: rgb(198, 115, 6);
+}
+
+.logotipo{
+    display: flex;
+    align-items: center;
+}
+
+.logotipo img{
+    margin-left: 10px;
+    width: 25pt;
+    height: 25pt;
+}
+
+.enlace-navegacion{
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    padding-right: 35px;
+}
+
+.nombre-empresa{
+    color: white;
+}
+
+.cursos{
+    text-align: center;
+    font-style: italic;
+}
+
+.contenedor {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px; 
+}
+
+.imagen {
+    max-width: 45%;
+    height: auto;
+    margin-right: 20px; 
+}
+
+.texto {
+    max-width: 50%;
+    padding: 20px;
+}
+
+.texto h2 {
+    margin-top: 0;
+}
+
+.texto h3 {
+    margin-top: 0;
+}
+
+.texto p {
+    margin-bottom: 20px;
+}
+
+.texto a {
+    background-color: rgb(145, 145, 145);
+    color: white;
+    border: 10px solid rgb(145, 145, 145);
+    border-radius: 100px;
+    text-decoration: none;
+}
+
+.imagen2 {
+    max-width: 45%;
+    height: auto;
+    margin-left: 20px;
+}
+
+.texto2 {
+    max-width: 50%;
+    padding: 20px;
+    order: -1; 
+}
+
+.texto2 a {
+    background-color: rgb(145, 145, 145);
+    color: white;
+    border: 10px solid rgb(145, 145, 145);
+    border-radius: 100px;
+    text-decoration: none;
+}
+

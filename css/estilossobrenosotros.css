@@ -1,0 +1,104 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+encabezado {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
+    background-color: rgb(40, 40, 40, 255);
+    align-items: center;
+    padding: 10px;
+}
+
+span {
+    color: rgb(198, 115, 6);
+}
+
+.logotipo {
+    display: flex;
+    align-items: center;
+}
+
+.logotipo1 {
+    width: 25%;
+    height: auto;
+}
+
+.logotipo img {
+    width: 25pt;
+    height: 25pt;
+}
+
+.enlace-nav {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    padding-right: 35px;
+}
+
+.nombre-empresa {
+    color: white;
+}
+
+.sobrenosotros {
+    text-align: center;
+    font-style: italic;
+}
+
+.contenedor {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.imagen img {
+    flex: 0 0 40%;
+    padding-right: 20px;
+}
+
+.informacion-empresa {
+    flex: 0 0 60%;
+}
+
+.informacion-empresa h3 {
+    margin-top: 0;
+}
+
+.informacion-empresa h2 {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 0;
+}
+
+.mitad-ancho {
+    width: 100%;
+    max-width: 50%;
+}
+
+.logotipo2 {
+    width: 30px;
+    height: 30px;
+    margin-right: 0px;
+}
+
+.texto-naranja {
+    color: orange;
+}
+
+.texto-menor {
+    margin-top: 0pt;
+    font-size: 1.1em;
+}
+
+.rejilla-logos {
+    margin-top: 20px;
+}
+
+.rejilla-logos img {
+    width: 4%;
+    height: auto;
+}

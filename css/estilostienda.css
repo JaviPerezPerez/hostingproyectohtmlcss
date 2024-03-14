@@ -1,0 +1,85 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
+    background-color: rgb(40,40,40,255);
+    align-items: center;
+    padding: 10px;
+}
+
+span{
+    color: rgb(198, 115, 6);
+}
+
+.logotipo{
+    display: flex;
+    align-items: center;
+}
+
+.logotipo img{
+    margin-left: 10px;
+    width: 25pt;
+    height: 25pt;
+}
+
+.enlace-navegacion{
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    padding-right: 35px;
+}
+
+.tienda{
+    text-align: center;
+    font-style: italic;
+}
+
+.nombre-empresa{
+    color: white;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.producto {
+    text-align: center;
+}
+
+.imagen-producto {
+    width: 200px;
+    height: auto;
+}
+
+.agregar-carrito {
+    display: block;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.navegacion {
+    text-align: right;
+    margin-right: 20px;
+}
+
+.enlace-pagina {
+    display: inline-block;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 50%;
+    margin-left: 10px;
+}

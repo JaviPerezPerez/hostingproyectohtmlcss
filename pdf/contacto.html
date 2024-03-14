@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" type="text/css" href="../css/estiloscontacto.css">
+</head>
+<header>
+    <div class="logotipo">
+        <img src="/images/Logos/Logo.png" alt="logo de la compañia">
+        <h2 class="nombre-empresa">ALL<span>SHOES</span></h2>
+    </div>
+    <nav>
+        <a href=../index.html class="enlace-navegacion">INICIO</a>
+        <a href=sobrenosotros.html class="enlace-navegacion">SOBRE NOSOTROS</a>
+        <a href=cursos.html class="enlace-navegacion">CURSOS</a>
+        <a href=tienda.html class="enlace-navegacion">TIENDA</a>
+        <a href=contacto.html class="enlace-navegacion">CONTACTO</a>
+    </nav>
+</header>
+<body>
+    <p></p>
+    <hr>
+    <h1 class="contacto">CONTACTO</h1>
+    <hr>
+    <div class="contenedor">
+        <div class="seccion-izquierda">
+            <h1>¿Tienes alguna duda?</h1>
+            <p><strong><em>Lorem ipsum dolor sit amet consectetur adipisicing.</em></strong></p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis aliquam libero quaerat illo placeat rerum eveniet ab repellat dolor vero id eius, ducimus molestias sequi vel cupiditate voluptatum nesciunt aperiam nostrum velit ullam! Reiciendis iste amet reprehenderit libero? Sit modi eveniet quis nobis magni adipisci excepturi hic, atque obcaecati temporibus eos culpa sapiente iste nesciunt praesentium cupiditate! Mollitia, tempora dignissimos nobis aut quis, pariatur temporibus quas aperiam perferendis repellat quasi, voluptates dicta vero minima autem?</p>
+            <h3>Email:</h3>
+            <p><strong>info@allshoes.es</strong></p>
+            <h2>Redes Sociales</h2>
+            <img src="../images/RedesSociales/Piramide.png" alt="Redes Sociales">
+        </div>
+        <div class="seccion-derecha">
+            <br>
+            <form action="#" method="POST" class="formulario-contacto">
+                <div class="grupo-input">
+                    <input type="text" id="nombre" name="nombre" placeholder="Introduce tu nombre" required>
+                </div>
+                <div class="grupo-input">
+                    <input type="email" id="correo" name="correo" placeholder="correo@gmail.com" required>
+                </div>
+                <div class="grupo-input">
+                    <input type="tel" id="telefono" name="telefono" placeholder="Teléfono +34 XXX XXX XXX" required>
+                </div>
+                <div class="grupo-input">
+                    <select id="tema" name="tema" placeholder="Tema" required>
+                        <option value="Problemas al comprar">Problemas al comprar</option>
+                        <option value="Zapatilla defectuosa">Zapatilla defectuosa</option>
+                        <option value="Información Cursos">Información Cursos</option>
+                        <option value="Otra diferente">Otra diferente</option>
+                    </select>
+                </div>
+                <div class="grupo-input">
+                    <textarea id="mensaje" name="mensaje" rows="6" placeholder="Escribe tu mensaje aquí" required></textarea>
+                </div>
+                <div class="terminos">
+                    <input type="checkbox" id="condiciones" name="condiciones" required>
+                    <label for="condiciones">Aceptar <a href="#" class="enlace-condiciones">condiciones</a></label>
+                </div>
+                <button type="submit" class="boton-enviar">Enviar</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
